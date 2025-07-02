@@ -1,8 +1,32 @@
+@font-face {
+  font-family: 'GW2'; /* Choose a name for your font */
+  src: url('./fonts/GWTwoFont.ttf') format('truetype'); /* Specify the path to your .ttf file */
+  font-weight: normal; /* Set the font weight (e.g., normal, bold) */
+  font-style: normal; /* Set the font style (e.g., normal, italic) */
+}
 .boxes{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-* {
+.GuildWars2{
+  font-family: "GW2", serif;
+}
+h2{
+  font-size: 24px;
+}
+.subby{
+  font-size: 16px;
+}
+.mainpage{
+  display: flex;
+}
+.mainimgsize{
+  height: 500px;
+}
+
+
+
+* :not(.GuildWars2){
   font-family: "Tahoma", sans-serif;
 }
