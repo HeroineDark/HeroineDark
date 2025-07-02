@@ -10,7 +10,7 @@
   justify-content: space-evenly;
 }
 .GuildWars2{
-  font-family: "GW2", serif;
+  font-family: "GW2";
 }
 h2{
   font-size: 24px;
@@ -24,7 +24,6 @@ h2{
 .mainimgsize{
   height: 500px;
 }
-
 
 
 * :not(.GuildWars2){
