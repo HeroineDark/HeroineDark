@@ -1,0 +1,42 @@
+.GuildWars2{
+  font-family: "GW2";
+  font-size: 48px;
+}
+div {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#first{
+    border: 1px solid green;
+}
+#second{
+    border: 1px solid purple;
+}
+* :not(.GuildWars2){
+  font-family: "Tahoma", sans-serif;
+}
+@font-face {
+  font-family: 'GW2'; /* Choose a name for your font */
+  src: url('./fonts/GWTwoFont.ttf') format('truetype'); /* Specify the path to your .ttf file */
+  font-weight: lighter; /* Set the font weight (e.g., normal, bold) */
+  font-style: normal; /* Set the font style (e.g., normal, italic) */
+}
+.boxes{
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+section{
+    border: 1px solid red;
+    margin-bottom: 5%;
+}
+section :not(.boxes, p, a){
+  display: flex;
+  flex-direction: column;
+}
+p{
+    border: 1px dotted red;
+}
