@@ -3,9 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 5%;
 }
 
+section{
+  margin-bottom: 5%;
+}
 h2{
   font-size: 24px;
 }
